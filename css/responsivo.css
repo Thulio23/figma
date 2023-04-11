@@ -1,0 +1,62 @@
+@media (max-width: 1010px){
+    main > section.imgs{
+        width: auto;
+    }
+    main section.img img {
+        width: 100%;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    } 
+
+    
+}
+@media (max-width: 768px){
+    header{
+        height: 4.5rem;
+    }
+    main > section.imgs{
+        width: 100%;
+    }
+    main > section{
+        font-size: 0.9rem;
+    }
+    footer{
+        height: 100%;
+    }
+
+    .zico{
+        display: none;
+    }
+
+    .mundial{
+        display: none;
+    }
+
+    .img{
+        bottom: 5rem;
+    }
+
+    .escala{
+        display: block;
+        align-items: flex-start;
+    }
+
+    .imgs{
+        display: block;
+        align-items: flex-start;
+    }
+
+    .escalacao{
+        display: block;
+        height: 70vh;
+        transform: scaleX(3);
+    }
+}
+@media (max-width: 500px){
+    main > section.imgs{
+        width: auto;
+    }
+}
